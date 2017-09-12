@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:opx; padding:opx; outline:0;}
+html, body {width:100%:}
+body { background-image:url(Imagenes/fondo.jpg) background:#FFF; font-family:Verdana, Geneva, sans-serif;}
+#menu { text-align:cente; font-size:1.3em; width:1000px; margin:25px auto; ,Gadget, sans-serif}
+#menu ul { list-style-type:none;}
+#menu ul li.nivel1 { float: left; width:162px; margin-right:20px;}
+#menu ul li a { display:block; border-radius:12px; text-decoration:none; color:#fff; background:#006; border:solid 1px #fff; padding:8px; position:relative;}
+#menu ul li:hover {position:relative;}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 { background-color:#06f; color:#000; position:relative;}
+#menu ul li a.nivel1 {display:block!important; display:none; position:relative;}
+#menu ul li ul { display:none;}
+#menu ul li a:hover ul, #menu ul li:hover ul {display:block; position:absolute; left: opx;}
+#menu ul li ul a { width:160px; padding: 6px 0px 8px 0px; border-top-color:#000;}
+#menu ul li ul li a:hover {border-top-color:#000; position:relative;}
+table.falsa {border-collapse:collapse; border:0px; float:left; position:relative;}

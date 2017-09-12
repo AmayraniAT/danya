@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FORMULARIO</title>
+</head>
+<body>
+<section align="center">
+<center> <form id="formreg" method="post" action="recibir.php">
+<link rel="stylesheet" href="ef.css">
+<p id="pr"><b>Escribe y Selecciona los datos para un correcto registro</b></p>
+<table><center>
+ <td align="right">NOMBRE(S:)</td>
+ <td align="left"><input type="text" name="nombre" id="pr" size="50" required="required"/></td>
+ </tr>
+ <tr>
+  <td align="right">APELLIDO PATERNO: </td>
+ <td align="left"><input type="text" name="apellidop" id="pr" size="50" required="required"/></td>
+ </tr>
+ <tr>
+ <td align="right">APELLIDO MATERNO: </td>
+ <td align="left"><input type="text" name="apellidom" id="pr" size="50" required="required"/></td>
+ </tr>
+   <tr id="pr">
+     <td align="right">EDAD: </td>
+        <td align="left"><input type="number" name="edad" id="pr" size="50" required="required"/></td>
+        </tr>
+ <div class="input-group radio"  >
+          <input type="radio" name="sexo" id="hombre" value="Hombre" required="required">
+          <label for="hombre">Hombre</label>
+          <input type="radio" name="sexo" id="mujer" value="Mujer" required="required">
+          <label for="mujer">Mujer</label>
+        </div>
+		 <div class="input-group" >  
+         <td align="right">CURP: </td>
+        <td align="left"><input type="text" name="curp" id="pr" size="50" required="required"/></td>
+        </tr>
+ <tr>
+  <td align="right">GRADO QUE CURSA:</td>
+  <td align="left"><select name="grado">
+     <option selected>Selecciona tu opcion</option>
+     <option>PRIMARIA</option>
+     <option>SECUNDARIA</option>
+     <option>PREPARATORIA</option>
+     <option>LICENCIATURA</option>
+     <option>MAESTRIA</option>
+     </select> </td>
+     </tr>
+      <td align="right">CORREO ELECTRONICO: </td>
+        <td align="left"><input type="text" name="correoe" id="pr" size="50" required="required"/></td>
+        </tr>
+     <tr id="pr">
+     <td align="right">DIRECCION :</td>
+        <td align="left"><input type="text" name="direccion" id="pr" size="50" required="required"/></td>
+        </tr>
+         <td align="right">FECHA: </td>
+         <td align="left"> <input type="date" name="fecha" id="pr" size="50"
+         required="required"  /> </td>  
+         </tr>
+         <tr>
+         <tr id="pr">
+          <td align="right"> HORA: </td>
+         <td align="left"> <input type="time" name="hora" id="pr" size="50"
+         required="required"  /> </td> 
+         </tr>
+         </table> 
+         <input type="submit" class="button" name="submit" value="Enviar"/>
+         <input type="reset">
+         </form> </center>
+    
+</body>
+</center>
+</html>
